@@ -74,11 +74,11 @@
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Tempat Lahir</label>
-        <input type="date" name="tempat" class="form-control" id="exampleInputPassword1">
+        <input type="text" name="tempat" class="form-control" id="exampleInputPassword1">
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Tanggal Lahir</label>
-        <input type="number" name="tanggal" class="form-control" id="exampleInputPassword1">
+        <input type="date" name="tanggal" class="form-control" id="exampleInputPassword1">
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Email</label>

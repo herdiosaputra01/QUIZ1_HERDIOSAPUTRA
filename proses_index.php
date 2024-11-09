@@ -1,3 +1,21 @@
+<?php
+
+include("koneksi.php");
+
+$nidn = $_POST ['nidn'];
+$nama = $_POST ['nama'];
+$rumpun = $_POST ['rumpun'];
+$tempat = $_POST ['tempat'];
+$tanggal = $_POST ['tanggal'];
+$email = $_POST ['email'];
+
+
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,14 +67,22 @@
         <div class="col-6 m-auto">
             <div class="card">
     <div class="card-header">
-        Formulir Pendaftaran
+        Form Dosen
     </div>
     <div class="card-body">
         <table class="table">
     <tbody>
         <tr>
+            <td scope="row">NIDN</td>
+            <th> : <?=$nidn?></th>
+        </tr>
+        <tr>
             <td scope="row">Nama Lengkap</td>
             <th> : <?=$nama?></th>
+        </tr>
+        <tr>
+            <td scope="row">Rumpun</td>
+            <th> : <?=$rumpun?></th>
         </tr>
         <tr>
             <td scope="row">Tempat Lahir</td>
@@ -67,30 +93,8 @@
             <th> : <?=$tanggal?></th>
         </tr>
         <tr>
-            <td scope="row">No Handphone</td>
-            <th> : <?=$nohp?></th>
-        </tr>
-        <tr>
             <td scope="row">Email</td>
             <th> : <?=$email?></th>
-        </tr>
-        <tr>
-            <td scope="row">Agama</td>
-            <th> : <?=$agama?></th>
-        </tr>
-        <tr>
-            <td scope="row">Jenis Kelamin</td>
-            <th> : <?=$jns_kln?></th>
-        </tr>
-        <tr>
-            <td scope="row">Foto</td>
-            <th> : 
-              <?=$nama_foto?><br>
-              <?=$ukuran_foto?><br>
-              <?=$jenis_foto?><br>
-              <?=$path_foto?><br>
-              <?=$error_foto?><br>
-            </th>
         </tr>
     </tbody>
     </table>
