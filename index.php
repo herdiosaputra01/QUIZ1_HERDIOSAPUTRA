@@ -54,46 +54,35 @@
     <div class="card-body">
         <form action="proses_pert3.php" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Nama Lengkap</label>
-        <input type="text" name="nama" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <label for="exampleInputEmail1" class="form-label">NIDN</label>
+        <input type="text" name="nidn" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Nama Lengkap</label>
+        <input type="text" name="nama" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Rumpun</label>
+        <select name="agama" id="" class="form-select">
+            <option value="">-Pillih Rumpun-</option>
+            <option value="Koputer">Komputer</option>
+            <option value="akuntansi">Akuntansi</option>
+            <option value="manajemen">Manajemen</option>
+            <option value="perpajakan">Perpajakan</option>
+            <option value="bisnis">bisnis</option>
+        </select>
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Tempat Lahir</label>
-        <input type="text" name="tempat" class="form-control" id="exampleInputPassword1">
+        <input type="date" name="tempat" class="form-control" id="exampleInputPassword1">
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Tanggal Lahir</label>
-        <input type="date" name="tanggal" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">No Handphone</label>
-        <input type="number" name="nohp" class="form-control" id="exampleInputPassword1">
+        <input type="number" name="tanggal" class="form-control" id="exampleInputPassword1">
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Email</label>
         <input type="email" name="email" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Agama</label>
-        <select name="agama" id="" class="form-select">
-            <option value="">-Pillih Agama-</option>
-            <option value="Islam">Islam</option>
-            <option value="Keristen">Keristen</option>
-            <option value="Hindu">Hindu</option>
-            <option value="Budha">Budha</option>
-            <option value="Katolik">Katolik</option>
-            <option value="Konghuccu">Konghuccu</option>
-        </select>
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Jenis Kelamin</label>
-        <br>
-        <input type="radio" value="Laki-Laki" name="jns_kln" id="exampleInputPassword1"> Laki-Laki
-        <input type="radio" value="Perempuan" name="jns_kln" id="exampleInputPassword1"> Perempuan
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">foto</label>
-        <input type="file" accept="image/**" name="foto" class="form-control" id="exampleInputPassword1">
     </div>
     <div class="mb-3 form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
