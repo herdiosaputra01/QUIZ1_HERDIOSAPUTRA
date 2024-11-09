@@ -52,7 +52,7 @@
         Form Dosen
     </div>
     <div class="card-body">
-        <form action="proses_pert3.php" method="POST" enctype="multipart/form-data">
+        <form action="proses_index.php" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">NIDN</label>
         <input type="text" name="nidn" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -63,7 +63,7 @@
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Rumpun</label>
-        <select name="agama" id="" class="form-select">
+        <select name="rumpun" id="" class="form-select">
             <option value="">-Pillih Rumpun-</option>
             <option value="Koputer">Komputer</option>
             <option value="akuntansi">Akuntansi</option>

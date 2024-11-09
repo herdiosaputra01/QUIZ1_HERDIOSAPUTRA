@@ -98,7 +98,7 @@ $email = $_POST ['email'];
         </tr>
     </tbody>
     </table>
-    <a href="pertemuan3.php" class="btn btn-warning btn-sm">Kembali</a>
+    <a href="index.php" class="btn btn-warning btn-sm">Kembali</a>
     </div>
     </div>
         </div>
