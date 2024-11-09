@@ -9,7 +9,10 @@ $tempat = $_POST ['tempat'];
 $tanggal = $_POST ['tanggal'];
 $email = $_POST ['email'];
 
+$simpan = "INSERT INTO data_dosen (nidn, nm_lengkap, rumpun, tpt_lahir, tgl_lahir, email) 
+VALUES ('$nidn','$nama','$rumpun','$tempat','tempat', 'tanggal', 'email')";
 
+mysqli_query($koneksi, $simpan);
 
 
 
